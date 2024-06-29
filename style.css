@@ -1,0 +1,311 @@
+
+* {
+  font-family: "Gabarito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  flex-wrap: wrap;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black; 
+    position: relative;   
+}
+
+
+.navbar__2{
+   display: flex;
+   padding: 10px;
+   gap: 30px;
+   padding-right: 150px;
+}
+
+.know{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar-3{
+   border: solid black 1px;
+   border-radius: 50px;
+   background-color: black;
+   color: white;
+   padding: 10px;
+   margin-right: 30px;
+}
+
+.logo img{
+    width: 250px;
+    height: 50px;
+    padding: 10px;
+}
+
+.search{
+    text-align: center;
+    justify-content: center;
+}
+
+.search__1{
+    font-size: 80px;
+    padding-bottom: 0px;
+}
+
+.search__2{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.search__3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid black 1px;
+    border-radius: 50px;
+    width: 60%;
+    margin-left: 300px;
+    padding: 0px;
+}
+
+.search__3 input{
+    border: none;
+    padding-right: 650px;
+}
+
+.search__3 p{
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.saleimage__1{
+    padding: 10px;
+    margin: 10px;
+}
+.saleimage__1 img{
+     width: 100%;
+}
+
+.like{
+    padding: 20px;
+}
+
+.like img{
+    border-radius: 10%;
+
+}
+
+.image{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.image__1{
+    padding: 0px;
+    gap: 5px;
+}
+
+.must{
+    padding-left: 20px;
+    
+}
+
+.must img{
+     border-radius: 10%;
+}
+
+.image-1{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.image-1__1{
+    padding: 10px;
+}
+
+.top{
+    padding-left: 20px;
+    
+}
+
+.top img{
+    border-radius: 10%;
+}
+
+.image-2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-2__1{
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.one{
+    display: flex;
+    justify-content: space-between;
+}
+
+.two{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hotels{
+    padding-left: 20px;  
+}
+
+.hotels img{
+    border-radius: 10%;
+}
+
+.image-3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-3__1{
+    padding: 10px;
+}
+
+.three{
+    display: flex;
+    justify-content: space-between;
+}
+
+.suggest{
+    padding-left: 30px;
+}
+
+.suggest p:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.hotels-1{
+    display: flex;
+    justify-content: space-around;
+    border: solid whitesmoke 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-bottom: 10px;
+}
+
+.like p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.things{
+    padding-left: 100px;
+}
+
+.things p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.must p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.top p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.hotels p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar__2 h3:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.know p:hover{
+    cursor: pointer;
+    border: solid black 1px;
+    background-color: white;
+    color: black;
+}
+
+.search__2 p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.search__3 p:hover{
+    cursor: pointer;
+    border: solid black 1px;
+    background-color: white;
+    color: black;
+}
+
+.must img:hover {
+    cursor: pointer;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+   
+    background-color: oldlace;
+}
+
+.explore{
+    padding-right: 170px;
+}
+
+.footer p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.copy{
+    padding-top: 160px;
+}
+
+.navbar{
+    position: sticky;
+    top: 0px;
+    backdrop-filter: blur(45px);
+}
+
+
+
+@media screen and (max-width:500px) {
+    body{
+        font-size: 10px;
+    }
+
+    
+}
+
+
+@media screen and (max-width:600px) {
+    .top{
+        flex-basis: 40%;
+    }
+}
+
+
+@media screen and (max-width:500px) {
+    .must{
+        flex-basis: 40%;
+    }
+}
